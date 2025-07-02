@@ -48,7 +48,7 @@ A Verilog HDL implementation of a MIPS32 processor with a classic 5-stage pipeli
 
 Each stage uses inter-stage latches: `IF_ID`, `ID_EX`, `EX_MEM`, `MEM_WB`.
 
----
+
 
 ## 🧪 Testbenches
 
@@ -60,7 +60,7 @@ ADDI R3, R0, 30     # R3 = 30
 ADD  R4, R1, R2     # R4 = R1 + R2 = 30
 ADD  R5, R4, R3     # R5 = R4 + R3 = 60
 HLT
----
+
 ```
 
 
@@ -98,7 +98,6 @@ Cycle:    1    2    3    4    5    6    7
 Instr1:  IF → ID → EX → MEM → WB
 Instr2:       IF → ID → EX → MEM → WB
 Instr3:            IF → ID → EX → MEM → WB
-...
 ```
 
 
