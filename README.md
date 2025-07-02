@@ -64,14 +64,18 @@ ADD  R4, R1, R2     # R4 = R1 + R2 = 30
 ADD  R5, R4, R3     # R5 = R4 + R3 = 60
 HLT
 ---
+```
 
-### ✅ Testbench 2: Memory Load +Add+Store
+
+### ✅ Testbench 2: Memory Load + Add + Store
 ```assembly
 ADDI R1, R0, 120    # R1 = 120
 LW   R2, 0(R1)      # R2 = Mem[120]
 ADDI R2, R2, 45     # R2 += 45
 SW   R2, 1(R1)      # Mem[121] = R2
-HLT
+HLT                 # Halt execution
+```
+
 
 ### 🔧 File Structure
 ├── Verilog/
