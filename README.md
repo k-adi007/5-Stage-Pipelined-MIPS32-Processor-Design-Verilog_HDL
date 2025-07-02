@@ -78,6 +78,7 @@ HLT                 # Halt execution
 
 
 ### 🔧 File Structure
+```
 ├── Verilog/
 │   ├── mips32_pipeline.v      # Top module
 │   ├── control_unit.v         # Control logic
@@ -92,13 +93,16 @@ HLT                 # Halt execution
 ├── waves/
 │   └── gtkwave_output.vcd
 └── README.md
+```
 
 ### 🧠 Pipeline Visualization
+```
 Cycle:    1    2    3    4    5    6    7
 Instr1:  IF → ID → EX → MEM → WB
 Instr2:       IF → ID → EX → MEM → WB
 Instr3:            IF → ID → EX → MEM → WB
 ...
+```
 
 
 
