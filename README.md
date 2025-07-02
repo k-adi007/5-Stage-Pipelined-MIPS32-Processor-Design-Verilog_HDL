@@ -2,9 +2,6 @@
 A Verilog HDL implementation of a MIPS32 processor with a classic 5-stage pipeline architecture: **IF**, **ID**, **EX**, **MEM**, and **WB**.
 
 ## 📌 Project Details
-- **Author**: Aditya Krishna  
-- **Roll No**: 23JE0047  
-- **Department**: Electrical Engineering  
 - **Design Language**: Verilog HDL  
 - **Architecture**: MIPS32 (32-bit)
 
