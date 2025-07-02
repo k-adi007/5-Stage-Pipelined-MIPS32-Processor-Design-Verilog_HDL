@@ -98,6 +98,7 @@ Cycle:    1    2    3    4    5    6    7
 Instr1:  IF → ID → EX → MEM → WB
 Instr2:       IF → ID → EX → MEM → WB
 Instr3:            IF → ID → EX → MEM → WB
+....
 ```
 
 
